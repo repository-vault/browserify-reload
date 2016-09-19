@@ -1,0 +1,33 @@
+{
+  "name": "browserify-reload",
+  "version": "1.0.0",
+  "description": "browserify-reload is a browserify plugin that reload your client side bundle everytime it gets updated (e.g. through watchify)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Francois Leurent <131.js@cloudyks.org>",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^1.6.0",
+    "ws": "^1.1.1",
+    "browserify-wrap": "^1.0.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:131/browserify-reload.git"
+  },
+  "keywords": [
+    "browserify",
+    "reload",
+    "live-reload",
+    "browser",
+    "sync",
+    "watch"
+  ],
+  "bugs": {
+    "url": "https://github.com/131/browserify-reload/issues"
+  },
+  "homepage": "https://github.com/131/browserify-reload"
+}
