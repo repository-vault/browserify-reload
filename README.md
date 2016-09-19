@@ -35,6 +35,3 @@ Monitor file paths and trigger client reload signal every time they are modified
 # Keywords / shout box
 browserify, prefix, suffix, wrapper, plugin, browserify-plugin
 
-
-[![Build Status](https://travis-ci.org/131/browserify-wrap.svg?branch=master)](https://travis-ci.org/131/browserify-wrap)
-[![Coverage Status](https://coveralls.io/repos/github/131/browserify-wrap/badge.svg?branch=master)](https://coveralls.io/github/131/browserify-wrap?branch=master)
