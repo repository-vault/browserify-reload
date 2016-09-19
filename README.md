@@ -20,7 +20,7 @@ b.bundle().pipe(somewhere);
 ```
 
 ## Options
-* { defered : false }
+* { deferred : false }
 Do not signal the client to reload once the bundle stream ends (so you might apply additionnal, non browserify-compliant processing afterwards BEFORE notifying the client), see opts.xfiles
 
 * { xfiles : [file_path1, file_path2 ] }

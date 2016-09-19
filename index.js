@@ -20,7 +20,7 @@ var connect = function(host, port) {
 
 
 module.exports = function(b, opts) {
-  var defered = opts.defered;
+  var deferred = opts.deferred;
 
   var port = 0;
   var  wss = new WSServer({ port }, function() {
@@ -53,7 +53,7 @@ module.exports = function(b, opts) {
 
   b.on("bundle", function(stream) {
     stream.on("end", function() {
-      if(!defered) {
+      if(!deferred) {
         console.log("NOW ASKING FOR CLIENT TO RELOAD");
         reload();
       }
