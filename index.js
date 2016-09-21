@@ -6,8 +6,10 @@ const WSServer = require('ws').Server;
 
 
 //this code is serialized and injected client-side
+//as it might not be processed by browserify transform, keep it ES5
+
 var connect = function(host, port) {
-  var sock = new WebSocket(`ws://${host}:${port}`);
+  var sock = new WebSocket('ws://' + host + ':' + port);
   sock.onopen = function() {
     console.log("Connected to browserify-reload handle");
   }
