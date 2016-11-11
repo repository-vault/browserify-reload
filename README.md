@@ -1,7 +1,7 @@
 browserify-reload is a browserify plugin that reload your client side bundle everytime it gets updated (e.g. through watchify)
 
 
-[![Version](https://img.shields.io/npm/v/ubk.svg)](https://www.npmjs.com/package/ubk)
+[![Version](https://img.shields.io/npm/v/browserify-reload.svg)](https://www.npmjs.com/package/browserify-reload)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
 
 
