@@ -25,12 +25,13 @@ module.exports = function(b, opts) {
   var deferred = opts.deferred;
 
   var port = 0;
+  var hostname = opts.host || 'document.location.hostname'
   var  wss = new WSServer({ port }, function() {
     port = this.address().port;
     console.log("WS server listening on ", port);
 
       //late plugin registration, it's okay
-    var prefix = `(${connect})(document.location.hostname, ${port});`;
+    var prefix = `(${connect})('${hostname}', ${port});`;
     b.plugin(wrap, {prefix});
   });
 
@@ -63,5 +64,3 @@ module.exports = function(b, opts) {
   });
 
 }
-
-
