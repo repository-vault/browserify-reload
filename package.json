@@ -1,6 +1,6 @@
 {
   "name": "browserify-reload",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "browserify-reload is a browserify plugin that reload your client side bundle everytime it gets updated (e.g. through watchify)",
   "main": "index.js",
   "scripts": {
