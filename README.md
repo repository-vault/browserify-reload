@@ -30,9 +30,12 @@ Do not signal the client to reload once the bundle stream ends (so you might app
 * { xfiles : [file_path1, file_path2 ] }
 Monitor file paths and trigger client reload signal every time they are modified.
 
+* { host : (default document.location.hostname) }
+WS notification host the browser will connect to
 
 # Credits
 * [131](https://github.com/131)
+* [serapath](https://github.com/serapath)
 
 
 
