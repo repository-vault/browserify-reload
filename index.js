@@ -31,7 +31,7 @@ module.exports = function(b, opts) {
     console.log("WS server listening on ", port);
 
       //late plugin registration, it's okay
-    var prefix = `(${connect})('${hostname}', ${port});`;
+    var prefix = `(${connect})(${hostname}, ${port});`;
     b.plugin(wrap, {prefix});
   });
 
